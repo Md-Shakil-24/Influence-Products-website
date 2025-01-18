@@ -175,6 +175,12 @@
     gap: 50px;
 }
 
+
+.feather img{
+    width: 100%;
+    height: 100%;
+}
+
 .btn-join{
     background-color: #E02C6D;
     color: white;
