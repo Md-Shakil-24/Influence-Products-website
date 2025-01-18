@@ -74,6 +74,7 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 
@@ -110,10 +111,12 @@
 
 .popular{
     text-align: center;
+    margin-bottom: 0px;
 }
 
 
 .banner{
+    margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -128,6 +131,12 @@
     justify-content: center;
     padding: 20px;
     border-radius: 10px;   
+    border: 2px solid rgb(225, 224, 224);
+}
+
+
+.sadow:hover{
+    border: 2px solid rgb(202, 7, 7);
 }
 
 
@@ -140,19 +149,25 @@
 
 
 .s90:hover{
-    border: 2px solid #c20909;
+    border: 3px solid #6708e3;
     cursor: pointer;
 }
 
 
-.banner ,sadow h3,h4, img, p{
-    margin: 0px;
+.banner .sadow h3,h4, span, p{
+    margin: 5px 0px 5px 0px;
+
 }
 
 
-.banner .sadow span{
+.sadow .s90{
+    margin-bottom: 10px;
+
+}
+
+/* .banner .sadow span{
     margin:  10px 0px;
-}
+} */
 
 
 
