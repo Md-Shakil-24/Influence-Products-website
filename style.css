@@ -18,18 +18,19 @@
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    
-  }
+}
 
-  .h31{
+.h31{
     border-bottom: 2px solid white;
-  }
+}
 
-  .div-nav{
+
+.div-nav{
     display: flex;
     gap: 50px;
 
-  }
+}
+
 
 .div-nav a{
     text-decoration: none;
@@ -37,6 +38,7 @@
     color: black;
     border-bottom: 2px solid white;
 }  
+
 
 .div-nav a:hover{
     text-decoration: none;
@@ -47,6 +49,7 @@
 
 
 /* camera section  */
+
 .camera{
     display: flex;
     justify-content: space-between;
@@ -56,12 +59,14 @@
     margin-bottom: 20px;
 }
 
+
 .camera-in{
     background-image: url(images/Circle\ design.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 
 .btn-pre{
     background-color: #E02C6D;
@@ -71,9 +76,9 @@
     cursor: pointer;
 }
 
+
 .btn-pre:hover{
     background-color: #2ce053;
-
 }
 
 
@@ -88,13 +93,75 @@
     align-items: center;
     margin: 20px 40px 20px 40px;
     padding: 10px;
-
 }
+
 
 .spons img{
     width: 100%;
     height: 100%;
 }
+
+/* popular section  */
+
+.pop{
+    margin: 90px 20px;  
+}
+
+
+.popular{
+    text-align: center;
+}
+
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.sadow{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;   
+}
+
+
+.sadow .s90{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #070707;
+    border-radius: 10px;   
+}
+
+
+.s90:hover{
+    border: 2px solid #c20909;
+    cursor: pointer;
+}
+
+
+.banner ,sadow h3,h4, img, p{
+    margin: 0px;
+}
+
+
+.banner .sadow span{
+    margin:  10px 0px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,15 +172,17 @@
     .poppins-light{
         margin: 10px 20px;
     }
+ 
 
     .none{
         display: inline-block;
     }
 
+
     .nav1 a{
         display: none;
-
     }
+
 
     div .visible{
         display: inline-block;
@@ -129,6 +198,7 @@
         align-items: center;
     }
 
+
     .camera-in{
         width: 100%;
         height: 100%;
@@ -136,6 +206,7 @@
         background-position: center;
         background-repeat: no-repeat; 
     }
+
 
     .center{
         text-align: center;
@@ -148,13 +219,9 @@
         display: grid;
         gap: 40px;
         grid-template-columns: repeat(4, 1fr);
-        margin: 10px 20px 10px 20px;
-        
-       
-        
-       
-        
+        margin: 10px 20px 10px 20px;  
     }
+
 
      .spons .centr {
        
@@ -163,6 +230,15 @@
     }
 
 
+    /* popular collection */
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        /* height: 300px; */   
+    }
 
 
 
