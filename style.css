@@ -165,10 +165,31 @@
 
 }
 
-/* .banner .sadow span{
-    margin:  10px 0px;
-} */
+/* feather's section  */
 
+.feather{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn-join{
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.btn-join:hover{
+    background-color: #43f055;
+    color: black;
+    cursor: pointer;
+}
 
 
 
@@ -251,9 +272,29 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        justify-content: center;
-        /* height: 300px; */   
+        justify-content: center; 
     }
+
+
+/* feather's section  */
+
+.feather{
+    margin-top: 90px;
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 25px;
+}
+
+.mid{
+    text-align: center;
+}
+
+.btn-join{
+    margin-top: 15px;
+}
+
 
 
 
